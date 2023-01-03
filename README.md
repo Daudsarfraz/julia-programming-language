@@ -21,12 +21,10 @@ I'm using **Ubuntu 22.04 LTS**<br>
 **Julia** is not part of the official **Ubuntu 22.04 repositories**, but that doesn’t make the installation process too difficult.<br>
 So, let’s get started.<br>
 First, open a terminal and update the whole system completely<br>
-<br>
   **sudo apt update**<br>
       ![1](https://user-images.githubusercontent.com/87930468/210356638-127100a3-d1c6-4d46-8e95-4e81a93399a0.png)<br>
  **sudo apt upgrade**<br>
       ![2](https://user-images.githubusercontent.com/87930468/210356668-80c6a6fd-1641-49df-b263-0bb3ef13955a.png)<br>
-<br>
 Then, you can download the Julia binary for Linux using this command<br>
 Remember that with each version of Julia, this command will be modified. So, it is recommended to visit the Julia download section to confirm the latest version.<br>
 Download julia by clicking on Download [**Download**](https://julialang.org/downloads/).<br>
@@ -52,10 +50,7 @@ To apply the changes, you can run the following<br>
 
 ## Testing Julia on Ubuntu<br>
 Now we just need to test Julia, for this, it is convenient to start an interactive REPL (**read-evaluate-print-loop**) session.<br>
-So run<br>
-
-And you will have an output like this<br>
-
+So run and you will have an output like this<br>
  **julia --version**<br>
       ![6](https://user-images.githubusercontent.com/87930468/210356863-620d36fc-d473-418d-89dd-180a497173fa.png)<br>
 **julia** <br> 
