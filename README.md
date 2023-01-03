@@ -19,7 +19,7 @@ I'm using **Ubuntu 22.04 LTS**<br>
 
 ## 2nd Method
 
-Install **Julia** Programming Language on **Ubuntu 22.04**<br>
+**Install Julia Programming Language on Ubuntu 22.04**<br>
 **Julia** is not part of the official **Ubuntu 22.04 repositories**, but that doesn’t make the installation process too difficult.<br>
 So, let’s get started.<br>
 First, open a terminal and update the whole system completely<br>
@@ -33,23 +33,23 @@ Then, you can download the Julia binary for Linux using this command<br>
 Remember that with each version of Julia, this command will be modified. So, it is recommended to visit the Julia download section to confirm the latest version.<br>
 Then, proceed to decompress it with **tar**<br>
 <br>
-**tar zvxf julia-1.8.2-linux-x86_64.tar.gz**<br>
+      **tar zvxf julia-1.8.2-linux-x86_64.tar.gz**<br>
 
 You will be able to use the binary, but the best thing to do is to add that directory to the system PATH.<br>
 <br>
 To achieve this, edit the file **~/.bashrc**<br>
 <br>
-**nano ~/.bashrc** <br>
+      **nano ~/.bashrc** <br>
 <br>
 And at the end of the file add the following<br>
 <br>
-**export PATH="$PATH:/home/YYY/julia-1.8.2/bin"**<br>
+      **export PATH="$PATH:/home/YYY/julia-1.8.2/bin"**<br>
 <br>
 Save the changes and close the editor<br>
 Remember that the path will depend on each user, but the general idea is to add the full path where the Julia binary is.<br>
 To apply the changes, you can run the following<br>
 <br>
-**source ~/.bashrc**<br>
+      **source ~/.bashrc**<br>
 
 ## Testing Julia on Ubuntu<br>
 Now we just need to test Julia, for this, it is convenient to start an interactive REPL (read-evaluate-print-loop) session.<br>
