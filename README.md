@@ -1,10 +1,7 @@
 # Julia_language
-**Install Julia Programming Language on Ubuntu 22.04**<br>
-
-Before starting julia let's install julia on PC/Laptop<br>
-Download julia by clicking on Download [**Download**](https://julialang.org/downloads/).<br>
-Choose according to your **OS**<br>
+## Before starting julia let's install julia on PC/Laptop<br>
 I'm using **Ubuntu 22.04 LTS**<br>
+**Install Julia Programming Language on Ubuntu 22.04 LTS**<br>
 # 1st Method:
    **sudo apt update**
       ![1](https://user-images.githubusercontent.com/87930468/210356638-127100a3-d1c6-4d46-8e95-4e81a93399a0.png)
@@ -21,7 +18,6 @@ I'm using **Ubuntu 22.04 LTS**<br>
 
 ## 2nd Method
 
-
 **Julia** is not part of the official **Ubuntu 22.04 repositories**, but that doesn’t make the installation process too difficult.<br>
 So, let’s get started.<br>
 First, open a terminal and update the whole system completely<br>
@@ -33,20 +29,21 @@ First, open a terminal and update the whole system completely<br>
 <br>
 Then, you can download the Julia binary for Linux using this command<br>
 Remember that with each version of Julia, this command will be modified. So, it is recommended to visit the Julia download section to confirm the latest version.<br>
-Then, proceed to decompress it with **tar**<br>
+Download julia by clicking on Download [**Download**](https://julialang.org/downloads/).<br>
+Choose according to your **OS**<br>
+I'm using **Ubuntu 22.04 LTS**<br>
 <br>
-      **tar zvxf julia-1.8.2-linux-x86_64.tar.gz**<br>
+Then, proceed to decompress it with **tar**<br>
+      **tar zvxf FILE-NAME.tar.gz**<br>
 
 You will be able to use the binary, but the best thing to do is to add that directory to the system PATH.<br>
 <br>
 To achieve this, edit the file **~/.bashrc**<br>
-<br>
       **nano ~/.bashrc** <br>
 <br>
 And at the end of the file add the following<br>
-<br>
-      **export PATH="$PATH:/home/YYY/julia-1.8.2/bin"**<br>
-<br>
+      **export PATH="$PATH:/home/YYY/julia-1.8.4/bin"**<br>
+
 Save the changes and close the editor<br>
 Remember that the path will depend on each user, but the general idea is to add the full path where the Julia binary is.<br>
 To apply the changes, you can run the following<br>
