@@ -38,19 +38,19 @@ You will be able to use the binary, but the best thing to do is to add that dire
 <br>
 To achieve this, edit the file **~/.bashrc**<br>
       **nano ~/.bashrc** <br>
-<br>
+      
 And at the end of the file add the following. replace * * * with your directory<br>
       **export PATH="$PATH:/home/ * * * /julia-1.8.4/bin"**<br>
 
 Save the changes and close the editor<br>
 Remember that the path will depend on each user, but the general idea is to add the full path where the Julia binary is.<br>
 To apply the changes, you can run the following<br>
-<br>
       **source ~/.bashrc**<br>
 
 ## Testing Julia on Ubuntu<br>
 Now we just need to test Julia, for this, it is convenient to start an interactive REPL (**read-evaluate-print-loop**) session.<br>
 So run and you will have an output like this<br>
+<br>
  **julia --version**<br>
       ![6](https://user-images.githubusercontent.com/87930468/210356863-620d36fc-d473-418d-89dd-180a497173fa.png)<br>
 **julia** <br> 
