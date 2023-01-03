@@ -41,8 +41,8 @@ You will be able to use the binary, but the best thing to do is to add that dire
 To achieve this, edit the file **~/.bashrc**<br>
       **nano ~/.bashrc** <br>
 <br>
-And at the end of the file add the following<br>
-      **export PATH="$PATH:/home/YYY/julia-1.8.4/bin"**<br>
+And at the end of the file add the following. replace * * * with your directory<br>
+      **export PATH="$PATH:/home/ * * * /julia-1.8.4/bin"**<br>
 
 Save the changes and close the editor<br>
 Remember that the path will depend on each user, but the general idea is to add the full path where the Julia binary is.<br>
