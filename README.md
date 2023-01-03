@@ -1,7 +1,9 @@
 # Julia_language
+**Install Julia Programming Language on Ubuntu 22.04**<br>
+
 Before starting julia let's install julia on PC/Laptop<br>
 Download julia by clicking on Download [**Download**](https://julialang.org/downloads/).<br>
-Choose according to your OS<br>
+Choose according to your **OS**<br>
 I'm using **Ubuntu 22.04 LTS**<br>
 # 1st Method:
    **sudo apt update**
@@ -19,7 +21,7 @@ I'm using **Ubuntu 22.04 LTS**<br>
 
 ## 2nd Method
 
-**Install Julia Programming Language on Ubuntu 22.04**<br>
+
 **Julia** is not part of the official **Ubuntu 22.04 repositories**, but that doesn’t make the installation process too difficult.<br>
 So, let’s get started.<br>
 First, open a terminal and update the whole system completely<br>
@@ -52,7 +54,7 @@ To apply the changes, you can run the following<br>
       **source ~/.bashrc**<br>
 
 ## Testing Julia on Ubuntu<br>
-Now we just need to test Julia, for this, it is convenient to start an interactive REPL (read-evaluate-print-loop) session.<br>
+Now we just need to test Julia, for this, it is convenient to start an interactive REPL (**read-evaluate-print-loop**) session.<br>
 So run<br>
 
 And you will have an output like this<br>
