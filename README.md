@@ -21,6 +21,7 @@ I'm using **Ubuntu 22.04 LTS**<br>
 **Julia** is not part of the official **Ubuntu 22.04 repositories**, but that doesn’t make the installation process too difficult.<br>
 So, let’s get started.<br>
 First, open a terminal and update the whole system completely<br>
+<br>
   **sudo apt update**<br>
       ![1](https://user-images.githubusercontent.com/87930468/210356638-127100a3-d1c6-4d46-8e95-4e81a93399a0.png)<br>
  **sudo apt upgrade**<br>
