@@ -56,3 +56,8 @@ So run and you will have an output like this<br>
       ![6](https://user-images.githubusercontent.com/87930468/210356863-620d36fc-d473-418d-89dd-180a497173fa.png)<br>
 **julia** <br> 
       ![5](https://user-images.githubusercontent.com/87930468/210356782-8cfc356f-3799-4745-bd41-a25163d61119.png)<br>
+      
+      
+  **Creating Virtual Environment for Anaconda**
+  ![Screenshot from 2023-02-12 03-01-36](https://user-images.githubusercontent.com/87930468/218302660-76338e0d-b1d0-44f8-b57a-b401b367be94.png)
+
